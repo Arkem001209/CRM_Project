@@ -1,9 +1,9 @@
 
 from django.urls import path
-from .views import home_page
+from .views import leads_list
 
 app_name ="leads"
 
 urlpatterns = [
-    path('all/', home_page)
+    path('', leads_list)
 ]
