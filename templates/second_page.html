@@ -8,5 +8,10 @@
 <body>
     <h1>Second page</h1>
     <p>Another placeholder, im getting there</p>
+    <ul>
+        {% for lead in leads %}
+        <li>{{ lead }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
